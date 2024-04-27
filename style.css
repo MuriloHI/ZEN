@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D2D4D9;
+}
+
+.navbar {
+    color: #000000;
+    border-bottom: 0.5px solid rgb(0, 0, 0);
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Mansalva';
+} 
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar a.nav-logo {
+    float: left;
+    height: inherit;  /* ?? */
+    line-height: inherit;
+    padding: 0 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Roboto';
+    color:#000000;
+    font-weight: bold;
+}
+
+.navbar ul {
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 50px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+
+.navbar ul li a:hover {
+    background-color: gray;
+}
+
+.hero {
+    font-family: 'Roboto';
+    color: #000000;
+    margin-top: 30%;
+    margin-left: 100px;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero p {
+    margin-top: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buttons {
+    margin-top: 20px;
+    background: #405B73;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 12px 20px;
+    float: left;
+    border: 0;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.buttons:hover {
+    background-color: #8191A6;
+}
+
+.circle {
+    border: 1px solid red;
+     /* border-radius: 50%; */
+    background-color: transparent;
+    margin-top: 35%;
+    margin-left: 20%;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px -2px 30px 30px rgb(104, 107, 255);
+    filter: grayscale(1);
+    transition: 3s;
+}
