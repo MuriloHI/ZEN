@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZEN</title>
+    <!-- Adicionando Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-Qq8R0BxuogdUzAjr1cswbV4vHs1PFv1Z4+uwQUb/x4IM+1XvZ1j2OJoS+dYzK3JQ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,25 +15,64 @@
             <a class="nav-logo" href="#">Zen</a>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="principal">
         <section class="hero">
             <h1>Descubra a serenidade dentro de si</h1>
             <p>Explore técnicas de meditação e filosofia zen para encontrar equilíbrio e paz interior</p>
-            <button class="buttons">Começar agora</button>
-            <button class="buttons">Saiba mais</button>
+            <div class="boto">
+                <button class="buttons">Começar agora</button>
+                <button class="buttons">Saiba mais</button>
+            </div>
         </section>
 
         <section>
-            <div class="circle"><img src="zen.png" alt="zen"></div>
-            <div class="circle2">outro circulo</div>
+            <div class="circle"><img class="imagemzen" src="zen.png" alt="zen"></div>
+            <!-- <div class="circle2">outro circulo</div> -->
         </section>
     </main>
+
+    <section id="sobre">
+        <h1> Sobre </h1>
+        <br>
+        <div >
+            <img src="ying.png" alt="ying yang">
+        </div>
+        <p>Em um mundo repleto de movimento constante, encontrar momentos de tranquilidade e paz interior é essencial para o bem-estar. No nosso espaço dedicado à serenidade, convidamos você a embarcar em uma jornada de autoconhecimento e equilíbrio.</p>
+        <p>Aqui, a serenidade não é apenas uma ideia, mas uma prática diária. Nós o incentivamos a explorar técnicas de meditação e os princípios da filosofia zen para mergulhar em um estado de calma e clareza mental. Através da meditação, aprenda a acalmar a mente agitada e a encontrar o silêncio interior que tanto busca.</p>
+        <p>Nossa abordagem combina a sabedoria antiga com as práticas contemporâneas, oferecendo-lhe um espaço para aprender e crescer. Desde meditações guiadas até reflexões sobre os ensinamentos zen, estamos aqui para acompanhá-lo em sua jornada de autodescoberta.</p>
+        <br>
+    </section>
+
+    <section id="servicos">
+        <h1>Serviços</h1>
+        <br>
+        <p>Bem-vindo à nossa gama de serviços dedicados ao seu bem-estar integral. Na nossa busca por promover uma vida equilibrada e harmoniosa, oferecemos uma variedade de serviços cuidadosamente elaborados para atender às suas necessidades.</p>
+        <h5>Meditação Guiada</h5>
+        <p>Experimente a paz interior através das nossas sessões de meditação guiada. Nossos instrutores experientes irão guiá-lo em uma jornada de relaxamento e autoconhecimento, ajudando-o a encontrar serenidade mesmo nos momentos mais agitados da vida.</p>
+        <h5>Yoga e Mindfulness</h5>
+        <p>Aprenda a conectar mente, corpo e espírito através das práticas transformadoras de yoga e mindfulness. Nossas aulas são projetadas para todos os níveis, desde iniciantes até praticantes avançados, oferecendo-lhe a oportunidade de explorar sua própria jornada de bem-estar.</p>
+        <h5>Consultoria Individual</h5>
+        <p>Para uma abordagem mais personalizada, oferecemos consultas individuais onde você pode discutir seus objetivos pessoais de bem-estar com nossos terapeutas e conselheiros. Juntos, podemos criar um plano de ação personalizado para ajudá-lo a alcançar um estado de equilíbrio e felicidade duradouros.</p>
+        <br>
+    </section>
+
+    <section id="contato">
+        <h1>Contato</h1>
+        <br>
+        <p>Estamos disponíveis para ajudar e responder suas dúvidas. Entre em contato conosco pelos seguintes meios:</p>
+        <ul>
+            <li>Telefone: +55 123456789</li>
+            <li>E-mail: exemplo@exemplo.com</li>
+            <li>Endereço: Rua Exemplo, 123, Cidade, Estado</li>
+        </ul>
+        <img src="png_contato.png" alt="icones de redes sociais">
+    </section>
 </body>
 </html>
